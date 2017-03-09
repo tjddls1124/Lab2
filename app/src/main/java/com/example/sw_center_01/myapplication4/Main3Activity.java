@@ -16,8 +16,8 @@ public class Main3Activity extends AppCompatActivity {
 
         b1 = (Button)findViewById(R.id.button1);
         b2 = (Button)findViewById(R.id.button2);
-        b3 = (Button)findViewById(R.id.button4);
-        b4 = (Button)findViewById(R.id.button8);
+        b3 = (Button)findViewById(R.id.button3);
+        b4 = (Button)findViewById(R.id.button4);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
