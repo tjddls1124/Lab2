@@ -11,7 +11,7 @@ import android.widget.Toast;
 import static android.R.attr.button;
 
 
-public class Main6Activity extends AppCompatActivity {
+public class Main4Activity extends AppCompatActivity {
     Button b1,b2,b3,b4;
     EditText e1,e2;
 
