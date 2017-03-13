@@ -24,6 +24,7 @@ public class Main3Activity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Main3Activity.this,MainActivity.class);
                 startActivity(intent);
+
             }
         });
         b2.setOnClickListener(new View.OnClickListener() {
@@ -31,6 +32,7 @@ public class Main3Activity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Main3Activity.this,Main2Activity.class);
                 startActivity(intent);
+
             }
         });
         b3.setOnClickListener(new View.OnClickListener() {
@@ -38,6 +40,7 @@ public class Main3Activity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Main3Activity.this,Main4Activity.class);
                 startActivity(intent);
+
             }
         });
         b4.setOnClickListener(new View.OnClickListener() {
@@ -45,6 +48,7 @@ public class Main3Activity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Main3Activity.this,Main6Activity.class);
                 startActivity(intent);
+
             }
         });
     }

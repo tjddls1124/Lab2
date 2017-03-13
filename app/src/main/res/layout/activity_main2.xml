@@ -21,6 +21,18 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="34dp" />
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:hint="온도를 입력하세요"
+        android:inputType="textPersonName" />
+
     <Button
         android:text="화씨계산"
         android:layout_width="match_parent"
@@ -30,18 +42,6 @@
         android:layout_marginTop="20dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:hint="온도를 입력하세요"
-        android:id="@+id/editText"
-        android:layout_below="@+id/textView3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="11dp" />
 
     <TextView
         android:text="화씨 온도를 입력하세요"

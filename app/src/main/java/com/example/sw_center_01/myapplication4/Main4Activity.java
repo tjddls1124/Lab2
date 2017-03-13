@@ -18,11 +18,11 @@ public class Main4Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main4);
         b1= (Button)findViewById(R.id.button);
         b2 = (Button)findViewById(R.id.button2);
         b3= (Button)findViewById(R.id.button3);
-        b4= (Button)findViewById(R.id.button3);
+        b4= (Button)findViewById(R.id.button4);
         e1 = (EditText)findViewById(R.id.editText);
         e2 = (EditText)findViewById(R.id.editText2);
 
