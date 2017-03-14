@@ -38,7 +38,7 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String fd2 = e2.getText().toString();
-                double cd2 = (Double.parseDouble(fd2) -32) * 1.8;
+                double cd2 = ( Double.parseDouble(fd2) -32 ) * 5 / 9;
                 Toast.makeText(getApplicationContext(), "섭씨온도는 : "+ cd2 +"입니다.", Toast.LENGTH_SHORT).show();
 
             }

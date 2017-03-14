@@ -13,6 +13,7 @@ import android.widget.Toast;
 import org.w3c.dom.Text;
 
 import static android.R.attr.button;
+import static android.R.attr.checkedButton;
 
 
 public class Main6Activity extends AppCompatActivity {
@@ -38,7 +39,10 @@ public class Main6Activity extends AppCompatActivity {
                 String piz = e1.getText().toString();
                 String spa = e2.getText().toString();
                 String sal = e3.getText().toString();
-                int result = Integer.parseInt(spa) *15000 + Integer.parseInt(piz)*13000 + Integer.parseInt(sal)*9000 ;
+                double result = Double.parseDouble(spa) *15000 + Double.parseDouble(piz)*13000 + Double.parseDouble(sal)*9000 ;
+
+                if(c1.isChecked()==true) result = result * 0.9;
+
                 int num = Integer.parseInt(spa)  + Integer.parseInt(piz) + Integer.parseInt(sal) ;
                 t1.setText(""+num+"");
                 t2.setText(""+result+"");
