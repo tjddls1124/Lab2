@@ -25,7 +25,7 @@ public class Main6Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main6);
-        b1= (Button)findViewById(R.id.button);
+        b1= (Button)findViewById(R.id.button1);
         e1 = (EditText)findViewById(R.id.editText);
         e2 = (EditText)findViewById(R.id.editText2);
         e3 = (EditText)findViewById(R.id.editText3);
@@ -44,8 +44,8 @@ public class Main6Activity extends AppCompatActivity {
                 if(c1.isChecked()==true) result = result * 0.9;
 
                 int num = Integer.parseInt(spa)  + Integer.parseInt(piz) + Integer.parseInt(sal) ;
-                t1.setText(""+num+"");
-                t2.setText(""+result+"");
+                t1.setText(""+num+" 개");
+                t2.setText(""+result+" 원");
                 result = 0;
             }
         });

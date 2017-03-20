@@ -19,7 +19,7 @@ public class Main4Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
-        b1= (Button)findViewById(R.id.button);
+        b1= (Button)findViewById(R.id.button1);
         b2 = (Button)findViewById(R.id.button2);
         b3= (Button)findViewById(R.id.button3);
         b4= (Button)findViewById(R.id.button4);
@@ -32,7 +32,7 @@ public class Main4Activity extends AppCompatActivity {
             public void onClick(View v) {
                 String v1 = e1.getText().toString();
                 String v2 = e2.getText().toString();
-                double result = Integer.parseInt(v1) + Integer.parseInt(v2);
+                double result = Double.parseDouble(v1) + Double.parseDouble(v2);
                 Toast.makeText(getApplicationContext(), "결과는 : "+ result +"입니다.", Toast.LENGTH_SHORT).show();
                 result = 0;
             }
@@ -42,7 +42,7 @@ public class Main4Activity extends AppCompatActivity {
             public void onClick(View v) {
                 String v1 = e1.getText().toString();
                 String v2 = e2.getText().toString();
-                double result = Integer.parseInt(v1) - Integer.parseInt(v2);
+                double result = Double.parseDouble(v1) - Double.parseDouble(v2);
                 Toast.makeText(getApplicationContext(), "결과는 : "+ result +"입니다.", Toast.LENGTH_SHORT).show();
                 result = 0;
             }
@@ -52,7 +52,7 @@ public class Main4Activity extends AppCompatActivity {
             public void onClick(View v) {
                 String v1 = e1.getText().toString();
                 String v2 = e2.getText().toString();
-                double result = Integer.parseInt(v1) * Integer.parseInt(v2);
+                double result = Double.parseDouble(v1) * Double.parseDouble(v2);
                 Toast.makeText(getApplicationContext(), "결과는 : "+ result +"입니다.", Toast.LENGTH_SHORT).show();
                 result = 0;
             }
@@ -62,7 +62,7 @@ public class Main4Activity extends AppCompatActivity {
             public void onClick(View v) {
                 String v1 = e1.getText().toString();
                 String v2 = e2.getText().toString();
-                double result = Integer.parseInt(v1) / Integer.parseInt(v2);
+                double result = Double.parseDouble(v1) / Double.parseDouble(v2);
                 Toast.makeText(getApplicationContext(), "결과는 : "+ result +"입니다.", Toast.LENGTH_SHORT).show();
                 result = 0;
             }

@@ -102,8 +102,7 @@
         android:text="멤버쉽 카드 있음(10%할인)"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:onClick="onCheckboxCliked"    />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/textView4"
